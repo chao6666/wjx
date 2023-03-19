@@ -7,7 +7,7 @@
 //http://118.195.177.234/cs/wjx.php?url=&sj=
 
 //这个链接必须是安卓页面抓包的链接
- $str=$_GET['url'];
+ $str=base64_decode($_GET['url']);
  
 //  $ContentLength=$_GET['L'];//请求头中的Content-Length的值
 //  $cd=(int)$ContentLength;
